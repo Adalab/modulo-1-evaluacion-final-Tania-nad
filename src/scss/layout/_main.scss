@@ -5,21 +5,29 @@
     
 }
 .historias{
-    background-color: aquamarine;
+    background-color: white;
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     max-width: 600px;
-    text-align: center;
     width: 100%;
     height: 300px;
     padding: 20px;
     
 }
+.h3{
+    color: #24b36b;
+}
+.h2{
+    color: black;
+}
+.paragraph{
+    color: #71717a;
+}
 .comprar{
     background-color: white;
-    color: green;
+    color: #24b36b;
     padding: 15px 30px;
     font-size: 25px;
     border-radius: 5px;
