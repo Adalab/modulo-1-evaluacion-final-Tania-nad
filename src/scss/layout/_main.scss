@@ -1,6 +1,14 @@
 .divs{
-    width: 100%;    
+    width: 100%;  
+    margin: 10px;  
+    max-width: 600px;
+    text-align: center;
 }
 .historias{
     background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 470px;
+    
 }
