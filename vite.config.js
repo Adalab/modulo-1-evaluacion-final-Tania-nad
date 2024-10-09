@@ -1,4 +1,4 @@
-// vite.config.js
+// vite.config.jsvoy 
 import { defineConfig } from "vite";
 // html partals
 import injectHTML from "vite-plugin-html-inject";
@@ -56,6 +56,9 @@ export default defineConfig({
   },
   server: {
     open: "/index.html",
+    watch: {
+      usePolling: true
+    }
   },
   plugins: [
     injectHTML(),
