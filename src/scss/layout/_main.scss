@@ -1,6 +1,5 @@
 .divs{
     width: 100%;    
-    max-width: 600px;
     text-align: center;
     
 }
@@ -29,19 +28,22 @@
 .container-comprar{
     display: flex;
     padding: 14px 0px 14px 0px;
-}
-.comprar{
-    background-color: white;
-    color: #24b36b;
+    background-color: #24b36b;
     padding: 15px 30px;
-    font-size: 25px;
     border-radius: 20px;
-    display: inline-block;
+    font-size: 25px;
     margin-bottom: 1em;
     align-items: flex-start;
     width: 170px;
     height: 48px;
-    transition: transform 0.3s ease;   
+    text-decoration: none;
+    text-align: center;
+    
+}
+.comprar{
+    display: flex;  
+    margin-bottom: 20px;
+    
 }
 
 .girl{
